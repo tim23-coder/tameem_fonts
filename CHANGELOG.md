@@ -1,3 +1,8 @@
-## 0.0.1
+## 1.0.0
 
-* TODO: Describe initial release.
+### Added
+
+- Cairo font family
+- Tajawal font family
+- IBM Plex Sans Arabic font family
+- Easy access through `TameemFonts`

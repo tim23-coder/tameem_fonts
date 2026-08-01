@@ -1,39 +1,42 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Tameem Fonts
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/tools/pub/writing-package-pages).
-
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/to/develop-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+A Flutter package that provides a collection of beautiful Arabic fonts for Flutter applications.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Cairo
+- Tajawal
+- IBM Plex Sans Arabic
 
-## Getting started
+## Installation
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+Add this to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  tameem_fonts: ^1.0.0
+```
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
 ```dart
-const like = 'sample';
+import 'package:tameem_fonts/tameem_fonts.dart';
+
+Text(
+  'السلام عليكم',
+  style: TameemFonts.cairoStyle(
+    fontSize: 22,
+    fontWeight: FontWeight.bold,
+  ),
+)
 ```
 
-## Additional information
+## Available Fonts
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+- Cairo
+- Tajawal
+- IBM Plex Sans Arabic
+
+## License
+
+MIT License
